@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../images/emoji-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  text-align: center;
+}
+
+header {
+  margin-top: 1rem;
+}
+
+header > p,
+footer > p {
+  font-size: 1rem;
+}
+
+footer {
+  margin-bottom: 1rem;
+}
+
+main {
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  /* border: 0.25rem solid blue; */
+  background-color: white;
+  border-radius: 20px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px gray;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: monospace;
+}
+
+section {
+  /* border: 0.25rem solid red; */
+  padding: 1rem;
+  margin: 1rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+.question,
+.answer {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  padding: 1rem;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+button {
+  padding: 1rem;
+  font-size: 1.25rem;
+  font-family: monospace;
+  border: 2px solid black;
+  color: black;
+  background-color: gold;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px gray;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+.joke {
+  background-color: lightblue;
+  border-radius: 20px;
+}
