@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff0f6;
+  color: #3d3040;
+}
+
+header {
+  max-width: 90%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: white;
+  border: 3px solid #d96ba8;
+  border-radius: 1rem;
+  box-shadow: 0 0.25rem 0.625rem #e3bfd2;
+}
+
+header h1 {
+  margin: 0 0 0.5rem;
+  color: #a7437d;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+main {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+section {
+  background-color: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.25rem 0.625rem #e3bfd2;
+}
+
+h2 {
+  color: #a7437d;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  margin: 2rem auto;
+}
+
+.sound {
+  height: 6rem;
+  border: 3px solid #d96ba8;
+  border-radius: 1rem;
+  background-color: #f8c9df;
+  color: #63294b;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0.25rem 0 #c95d97;
+}
+
+.sound:hover {
+  background-color: #edadd0;
+}
+
+.sound:active {
+  box-shadow: 0 0.125rem 0 #c95d97;
+}
+
+.sound:focus {
+  outline: 4px solid #8e6bc7;
+  outline-offset: 0.1875rem;
+}
+
+#status {
+  max-width: 70%;
+  margin: 1.5rem auto 0;
+  padding: 0.75rem;
+  text-align: center;
+  background-color: #f1e8fa;
+  border: 2px solid #b99ad6;
+  border-radius: 0.75rem;
+  color: #633f80;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+section p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+ul {
+  max-width: 70%;
+  margin: 0 auto;
+  line-height: 1.8;
+}

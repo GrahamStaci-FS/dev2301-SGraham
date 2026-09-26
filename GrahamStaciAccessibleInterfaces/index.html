@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Horn Soundboard</title>
+    <link rel="stylesheet" href="CSS/main.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Car Horn Soundboard</h1>
+      <p>Press a button to play a car horn.</p>
+    </header>
+
+    <main>
+      <section aria-labelledby="horns">
+        <h2 id="horns">Car Horns</h2>
+
+        <div id="board">
+          <!-- These are the first 3 buttons -->
+          <button class="sound" type="button" aria-label="Play Horn 1">
+            Horn 1
+          </button>
+
+          <button class="sound" type="button" aria-label="Play Horn 2">
+            Horn 2
+          </button>
+
+          <button class="sound" type="button" aria-label="Play Horn 3">
+            Horn 3
+          </button>
+        </div>
+
+        <p id="status" aria-live="polite">Choose a horn to play.</p>
+      </section>
+
+      <section>
+        <h2>Keyboard Controls</h2>
+
+        <p>
+          Use 1-6 to play a horn. Use the arrow keys to move between buttons.
+          Press Enter or Space to play.
+        </p>
+      </section>
+    </main>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
